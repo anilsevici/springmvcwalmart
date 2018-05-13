@@ -1,0 +1,38 @@
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns="http://www.w3.org/1999/xhtml">
+
+<head layout:fragment="homeHeader">
+
+    <title th:if="${pageTitle} == ''">WalMart Deloitte</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <link rel="stylesheet" th:href="@{/resources/css/navbar.css}">
+    <link rel="stylesheet" th:href="@{/resources/css/footer.css}">
+    <link rel="stylesheet" th:href="@{/resources/css/home.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<head layout:fragment="productHeader">
+
+    <title th:if="${pageTitle} == ''">WalMart Deloitte</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <link rel="stylesheet" th:href="@{/resources/css/navbar.css}">
+    <link rel="stylesheet" th:href="@{/resources/css/footer.css}">
+    <link rel="stylesheet" th:href="@{/resources/css/product.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+</html>
